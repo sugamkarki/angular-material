@@ -8,8 +8,9 @@ import { MaterialModule } from './material/material.module';
 import { TypographyComponent } from './components/typography/typography.component';
 import { ButtonsComponent } from './components/buttons/buttons.component';
 import { ButtonToggleComponent } from './components/button-toggle/button-toggle.component';
+import { IconsComponent } from './components/icons/icons.component';
 @NgModule({
-  declarations: [AppComponent, TypographyComponent, ButtonsComponent, ButtonToggleComponent],
+  declarations: [AppComponent, TypographyComponent, ButtonsComponent, ButtonToggleComponent, IconsComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
