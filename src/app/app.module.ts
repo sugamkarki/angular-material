@@ -11,8 +11,9 @@ import { ButtonToggleComponent } from './components/button-toggle/button-toggle.
 import { IconsComponent } from './components/icons/icons.component';
 import { BadgesComponent } from './components/badges/badges.component';
 import { SpinnerComponent } from './components/spinner/spinner.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 @NgModule({
-  declarations: [AppComponent, TypographyComponent, ButtonsComponent, ButtonToggleComponent, IconsComponent, BadgesComponent, SpinnerComponent],
+  declarations: [AppComponent, TypographyComponent, ButtonsComponent, ButtonToggleComponent, IconsComponent, BadgesComponent, SpinnerComponent, NavbarComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
