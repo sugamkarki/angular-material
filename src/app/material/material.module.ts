@@ -7,6 +7,8 @@ import {
   MatProgressSpinnerModule,
   MatSidenavModule,
   MatToolbarModule,
+  MatListModule,
+  MatDividerModule,
 } from '@angular/material';
 import { MatBadgeModule } from '@angular/material';
 const Material = [
@@ -18,6 +20,8 @@ const Material = [
   MatToolbarModule,
   MatSidenavModule,
   MatMenuModule,
+  MatListModule,
+  MatDividerModule,
 ];
 @NgModule({
   imports: [Material],

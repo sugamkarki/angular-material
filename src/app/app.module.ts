@@ -15,6 +15,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { FormsModule } from '@angular/forms';
 import { MenuComponent } from './components/menu/menu.component';
+import { ListComponent } from './components/list/list.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,6 +28,7 @@ import { MenuComponent } from './components/menu/menu.component';
     NavbarComponent,
     SidenavComponent,
     MenuComponent,
+    ListComponent,
   ],
   imports: [
     BrowserModule,
