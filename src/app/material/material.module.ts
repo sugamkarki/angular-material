@@ -3,6 +3,7 @@ import {
   MatButtonModule,
   MatButtonToggleModule,
   MatIconModule,
+  MatMenuModule,
   MatProgressSpinnerModule,
   MatSidenavModule,
   MatToolbarModule,
@@ -16,6 +17,7 @@ const Material = [
   MatProgressSpinnerModule,
   MatToolbarModule,
   MatSidenavModule,
+  MatMenuModule,
 ];
 @NgModule({
   imports: [Material],
