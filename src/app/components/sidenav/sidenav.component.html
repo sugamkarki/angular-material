@@ -1,0 +1,9 @@
+<mat-sidenav-container>
+  <mat-sidenav #sidenav [(opened)]="opened">Sidenav</mat-sidenav>
+  <mat-sidenav-content>
+    <button (click)="opened = !opened" mat-raised-button>Toggle Sidenav</button>
+    <button (click)="sidenav.open()">Open</button>
+    <button (click)="sidenav.close()">Close</button>
+    <button (click)="sidenav.toggle()">Toggle</button>
+  </mat-sidenav-content>
+</mat-sidenav-container>
