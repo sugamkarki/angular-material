@@ -5,8 +5,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
+import { TypographyComponent } from './components/typography/typography.component';
+import { ButtonsComponent } from './components/buttons/buttons.component';
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, TypographyComponent, ButtonsComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
