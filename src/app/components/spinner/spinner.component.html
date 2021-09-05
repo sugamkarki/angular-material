@@ -1,3 +1,5 @@
 <!-- Progress Spinner -->
 <mat-progress-spinner [value]="progress"></mat-progress-spinner>
 <!-- spinner that never stops spinning -->
+<button (click)="loadData()" color="warn" mat-raised-button>Load Data</button>
+<mat-spinner color="accent" *ngIf="showSpinner"></mat-spinner>

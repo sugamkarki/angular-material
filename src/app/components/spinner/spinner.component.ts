@@ -7,7 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SpinnerComponent implements OnInit {
   progress: number = 99;
-  constructor() {}
+  showSpinner: boolean;
+  constructor() {
+    this.showSpinner = false;
+  }
+  loadData() {
+    this.showSpinner = true;
+
+    setTimeout(() => {
+      this.showSpinner = false;
+    }, 3000);
+  }
 
   ngOnInit(): void {}
 }
