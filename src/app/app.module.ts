@@ -10,8 +10,9 @@ import { ButtonsComponent } from './components/buttons/buttons.component';
 import { ButtonToggleComponent } from './components/button-toggle/button-toggle.component';
 import { IconsComponent } from './components/icons/icons.component';
 import { BadgesComponent } from './components/badges/badges.component';
+import { SpinnerComponent } from './components/spinner/spinner.component';
 @NgModule({
-  declarations: [AppComponent, TypographyComponent, ButtonsComponent, ButtonToggleComponent, IconsComponent, BadgesComponent],
+  declarations: [AppComponent, TypographyComponent, ButtonsComponent, ButtonToggleComponent, IconsComponent, BadgesComponent, SpinnerComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
